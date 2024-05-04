@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Statements</h2>
+<p>Memanggil banyak statement pada 1 baris.</p>
+<p id="demo1"></p>
+
+<h2>JavaScript Statements</h2>
+<p>JavaScript kode blocks akan membaca { and }</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<script>
+let a, b, c;
+a = 5; b = 6; c = a + b;
+document.getElementById("demo1").innerHTML = c;
+</script>
+
+<script>
+    function myFunction() {
+      document.getElementById("demo2").innerHTML = "Hello JavaScript!";
+      document.getElementById("demo3").innerHTML = "How are you?";
+    }
+    </script>
+</body>
+</html>
